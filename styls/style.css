@@ -1,0 +1,24 @@
+/* body */
+body{
+    padding: 24px 160px;
+    background-color: #F5F5F5;
+
+/* shered style */
+.btn{
+    padding: 15px 30px;
+    border: 2px solid #006A50;
+    border-radius: 5px;
+}
+.btn>a{
+    text-decoration: none;
+    color: #006A50;
+}
+
+}
+.nav1>ul{
+    display: flex;
+    justify-content: space-between;
+}
+.nav1>ul>li{
+    list-style-type: none;
+}
