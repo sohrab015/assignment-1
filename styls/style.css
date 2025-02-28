@@ -91,5 +91,31 @@ body{
     font-size: 12.8px;
 }
 .card1{
+    
+}
+
+/* card 2*/
+.c2p{
+    font-size: 12.8px;
+    color: #0E0E0E;
+}
+.card2-containar{
+    background-color: #C6E4D6;
+    border-radius: 10px;
+    padding: 19.2px;
+    margin: 0px;
+}
+.c2p2{
+    width: 276.8px;
+}
+.card2-pera{
+    background-color: white;
+    border-radius: 10px;
+    padding: 19.2px;
+    gap: 9.6px;
+    margin-top: 25.6px;
+}
+.card2{
+    margin-top: 64px;
     margin-bottom: 64px;
 }
