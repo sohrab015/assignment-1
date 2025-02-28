@@ -98,6 +98,7 @@ body{
 .c2p{
     font-size: 12.8px;
     color: #0E0E0E;
+    word-wrap: ;
 }
 .card2-containar{
     background-color: #C6E4D6;
@@ -118,4 +119,42 @@ body{
 .card2{
     margin-top: 64px;
     margin-bottom: 64px;
+}
+
+/*table section*/
+.nav-table{
+    background-color: #C6E4D6;
+    padding: 19.2px;
+}
+.nav-table>ul>li{
+    font-size: 24px;
+}
+.table-item{
+    width: 1024px;
+    padding: 25.6px;
+    background-color: white;
+    border-radius: 10px;
+}
+.t-data{
+    padding: 19.2px;
+    width: 813.6px;
+}
+.t-btn{
+    padding: 19.2px;
+    width: 160px;
+    text-align: center;
+}
+table {
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background-color: lightgray;
+}
+.table{
+    padding-bottom: 64px
 }
