@@ -1,8 +1,21 @@
 /* body */
+body, header, .nav1 ul, header h2 {
+    margin: 0;
+    padding: 0;
+}
+header {
+    padding: 0 128px; /* Ensure no extra vertical spacing */
+}
+
 *{
     padding: 0px;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+     font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
 }
-body{
+header, main{
     padding: 0px 128px;
     background-color: #F5F5F5;
 }
@@ -39,12 +52,15 @@ body{
 .nav1>ul>li{
     list-style-type: none;
 }
+.nav1{
+    padding: 10px 0px;
+}
 
 /* footer  */
 .footer{
     background-color: #C6E4D6;
     border-radius: 10px;
-    width: 990px;
+    width: 1005px;
     height: 400px;
     padding-top: 16px;
     padding-bottom: 64px;
@@ -71,7 +87,7 @@ body{
     font-size: 24px;
 }
 .main-heading{
-    font-size: 44.8px;
+    font-size: 40px;
 }
 
 /* card one */
@@ -254,4 +270,21 @@ th {
     padding: 14px 400px;
     padding-right: 200px;
     margin: 5px;
+}
+
+/*footer*/
+main{
+    padding-bottom: 64px;
+}
+footer{
+    background-color: #FFFFFF;
+}
+footer>h2, footer>.last-icon{
+    text-align: center;
+}
+.footer-icon{
+    padding: 20px;
+}
+hr{
+    padding: 0px 100px;
 }
