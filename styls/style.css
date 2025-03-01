@@ -28,6 +28,9 @@ body{
     text-decoration: none;
     color: #F5F5F5;
 }
+.every-heading{
+    font-size: 32px;
+}
 /* nav bar */
 .nav1>ul{
     display: flex;
@@ -138,11 +141,13 @@ body{
 .t-data{
     padding: 19.2px;
     width: 813.6px;
+    font-size: 12.8px;
 }
 .t-btn{
     padding: 19.2px;
     width: 160px;
     text-align: center;
+    font-size: 12.8px;
 }
 table {
     border-collapse: collapse;
@@ -176,4 +181,49 @@ th {
 .banner-contant{
     justify-content: space-between;
     padding-top: 0px;
+}
+
+/*Donate Section*/
+.donate-main>h2{
+    text-align: center;
+}
+.donate-main>p{
+    text-align: center;
+}
+.select>ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 26px;
+}
+.select>ul>li{
+    list-style-type: none;
+}
+.option{
+    padding: 26px;
+}
+.btn3{
+    padding: 30px 50px;
+    max-width: 211.2px;
+    /* max-height: 102.4px; */
+    border: none;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn3:hover{
+    background-color: #006A50;
+}
+.customize{
+    width: 885px;
+    height: 64px;
+    text-align: center;
+    margin: 0px 26px;
+    margin-bottom: 25.6px;
+    border: none;
+}
+.btn4{
+    text-align: center;
+}
+.donate{
+    margin: 64px 0px;
 }
